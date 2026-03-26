@@ -1,0 +1,8 @@
+Task:
+- title: không được trống, tối đa 200 ký tự
+- projectId: không được trống
+- deadline: phải lớn hơn ngày hiện tại
+
+User:
+- name: không được trống
+- email: không được trống, đúng định dạng email

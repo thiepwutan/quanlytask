@@ -1,0 +1,11 @@
+Ghi chú:
+Hệ thống làm gì : Quản lý các công việc ( task) theo dự án, giao việc cho người dùng
+Các đối tượng trong hệ thông: -User: người dùng, có tên tk + email
+                                              - Task: việc cần làm
+                                              - Project: dự án, chứa nhiều task
+Validate: - mỗi task chỉ thuộc về 1 project, ko thuộc project khác
+               - ko thêm trùng task vào project
+               - task gồm 3 trạng thái : In progress, Done, Cancelled
+              -  1 user có thể có nhiều task
+               - các user ko được trùng email
+https://docs.google.com/spreadsheets/d/1kuHHCwPSoyrt-RrTwCuG_kiTHWW_gIrThxBlR-9npKI/edit?gid=0#gid=0

@@ -1,0 +1,4 @@
+-Test cover cơ bản method + exception OK
+-Tên method còn ngắn, chưa rõ nghĩa => nên đổi theo chuẩn action_shouldResult_whenCondition
+-Một vài dữ liệu test trùng lặp, helper method chưa dùng , cần refactor
+-Edge case chưa đủ: null, empty, assign overwrite chưa test

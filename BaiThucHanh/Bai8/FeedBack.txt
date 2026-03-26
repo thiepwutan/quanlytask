@@ -1,0 +1,4 @@
+-Overall OK, tất cả pass
+-Nên thêm test edge case + verify chi tiết hơn 
+-Refactor helper method, đổi tên biến/method cho rõ ràng
+-Commit sau khi hoàn tất refactor & edge case test

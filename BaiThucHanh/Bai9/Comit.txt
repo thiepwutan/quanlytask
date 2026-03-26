@@ -1,0 +1,17 @@
+
+## Tóm tắt checklist
+```
+□ Tạo application-dev.properties — chạy được
+□ Tạo application-prod.properties
+□ application.properties chỉ còn 1 dòng profiles.active=dev
+□ Build JAR thành công: mvn clean package -DskipTests
+□ Chạy JAR được: java -jar target/...jar
+□ Thêm springdoc dependency vào pom.xml
+□ Tạo SwaggerConfig.java
+□ Mở security cho /swagger-ui/**, /v3/api-docs/**
+□ Thêm @Tag vào 4 controller
+□ Thêm @Operation vào các endpoint
+□ Vào được http://localhost:8080/swagger-ui/index.html
+□ Test được API qua Swagger (có screenshot để nộp)
+□ Tạo README.md
+□ git commit + push
