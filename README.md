@@ -12,7 +12,7 @@ REST API quản lý công việc theo project — Spring Boot + JWT + SQL Server
 
 ## Cách chạy project
 
-### Bước 1 — Clone code về / download zipfile
+### Bước 1 — Clone code về / download zipfile : https://drive.google.com/file/d/1YqZd_dXICSlybeRXoq27810hEuwKunrG/view
 
 git clone https://github.com/thiepwutan/quanlytask.git
 cd quanlytask
