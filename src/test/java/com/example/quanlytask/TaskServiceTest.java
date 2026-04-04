@@ -93,7 +93,6 @@ class TaskServiceTest {
 
     @Test
     void create_shouldThrowBadRequest_whenTitleNullOrEmpty() {
-        when(projectRepository.findById("p1")).thenReturn(Optional.of(testProject));
 
         assertThatThrownBy(() -> taskService.create("p1", null))
                 .isInstanceOf(BadRequestException.class);

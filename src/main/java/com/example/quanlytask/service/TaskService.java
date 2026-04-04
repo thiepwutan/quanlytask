@@ -20,13 +20,19 @@ public class TaskService {
     // Tạo task mới — validate projectId tồn tại
     public Task create(String projectId, String title) {
 
-        // Kiểm tra project có tồn tại không
+        // Validate thủ công — @NotBlank không hoạt động trong unit test
+        if (title == null || title.isBlank()) {
+            throw new BadRequestException("Tiêu đề không được để trống");
+        }
+        if (projectId == null || projectId.isBlank()) {
+            throw new BadRequestException("ProjectId không được để trống");
+        }
+
         Project project = projectRepository.findById(projectId)
                 .orElseThrow(() -> new NotFoundException("Không tìm thấy project: " + projectId));
 
-
         Task task = new Task();
-        task.setId("t" + (System.currentTimeMillis() % 100000)); // tự tạo id
+        task.setId("t" + (System.currentTimeMillis() % 100000));
         task.setTitle(title);
         task.setStatus(TaskStatus.TODO);
         task.setProject(project);
