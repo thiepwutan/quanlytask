@@ -65,4 +65,3 @@ kết nối SQL Server, có xác thực JWT và phân quyền theo role.
 - Thêm unit test với JUnit
 - Dùng DTO thay vì trả thẳng Entity
 - Thêm refresh token
-- Deploy lên cloud (Railway, Render)
